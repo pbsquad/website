@@ -1,0 +1,58 @@
+{% load static %}
+{% load tz %}
+/* For custom CSS for all navbar related pages*/
+.nav-brand-img {
+  padding: 0;
+}
+
+.event-card-bg {
+  /*border-radius: 25px;*/
+  /*background-color: black;*/
+  border-radius: 50px 50px 15px 15px; 
+}
+
+
+/*Overwrite*/
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  /*text-transform: uppercase;*/
+  color: #667A9E;
+}
+
+h2,h3,h4 {
+  font-family: 'Oswald', sans-serif;
+  color: #667A9E;
+  font-size: 170%;
+}
+
+h3,h4 {
+  font-family: 'Oswald', sans-serif;
+  color: #667A9E;
+  font-size: 150%;
+}
+
+
+p {
+  font-family: 'Lato', sans-serif;
+  margin-left: 20px;
+}
+
+ul, ol {
+  font-family: 'Lato', sans-serif;
+  color: #898A87;
+}
+
+p {
+  color: #898A87;
+}
+
+.links {
+  color: navy;
+  /*font-weight: bold;*/
+}
+
+
+a {
+  font-family: 'Allerta Stencil', sans-serif;
+}

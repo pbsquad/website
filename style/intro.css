@@ -1,0 +1,109 @@
+{% load static %}
+{% load tz %}
+
+@media only screen and (max-width: 400px) {
+  img {
+    width: 100%;
+  }
+  h4 {
+    font-size: 1em;
+  }
+}
+
+
+body, html {
+  height: 94%;
+  margin: 0;
+  color: #777;
+  background-color: #343A40;
+}
+
+.body-mod {
+  height: 94%;
+  margin: 0;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.85;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url('https://s3.amazonaws.com/pointblanksite/public/splash.jpg');
+  height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h4 {
+  font-size: 1.5em;
+  /*letter-spacing: 5px;*/
+  /*text-transform: uppercase;*/
+  color: #111;
+  margin: 0px;
+}
+
+.smaller {
+    font-size: 3em;
+}
+
+.ffs-title {
+    font-size: 5em;
+}
+
+.border {
+    color: #CD771C;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: navy;
+}
+
+/* selected link */
+a:active {
+  color: gold;
+}
+
+.allerta {
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+a {
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+ 
+.nav-img {
+  padding: 0;
+}
+
