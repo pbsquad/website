@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href='img/favicon.png'/>
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <link href='/style/custom.css' rel="stylesheet">
+
+
+    <title>Point Blank</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-bottom: 10px;">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <a class="navbar-brand nav-brand-img" href="/">
+            <img height="50" width="auto"  src="/img/pb_logo.png" alt="">
+        </a>
+        <!-- NavBar Static Content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/join.html">Join</a>
+            </li>
+
+            <!-- BFT Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <h6 class="dropdown-header dropHeader">Applicants</h6>
+                  <a class="dropdown-item" href="/info/basic-flight-prep.html">Basic Flight Prep</a>
+                  <h6 class="dropdown-header dropHeader">Other Topics</h6>
+                  <a class="dropdown-item" href="/info/takeoff-landing.html">Takeoff & Landing</a>
+                  <a class="dropdown-item" href="/info/stall.html">Stalls and Spins</a>
+                  <a class="dropdown-item" href="/info/engine-damage.html">Plane & Engine Damage</a>
+                </div>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reference</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <h6 class="dropdown-header dropHeader">Plane Comparison Tools</h6>
+                  <a class="dropdown-item" href="/info/air_speed">Optimal Air Speed at Alt.</a>
+                  <a class="dropdown-item" href="/info/turn_speed">Turn Speed at Alt.</a>
+                  <a class="dropdown-item" href="/info/turn_time">Turn Time at Alt.</a>
+                  <a class="dropdown-item" href="/info/climb_time">Climb Time at Alt.</a>
+                  <h6 class="dropdown-header dropHeader">Reference Tables</h6>
+                  <a class="dropdown-item" href="/info/climb_table">Climb Table</a>
+                  <a class="dropdown-item" href="/info/fuel_table">Fuel Table</a>
+                  <a class="dropdown-item" href="/info/speeds_table">Speed Table</a>
+                </div>
+            </li> -->
+            <!-- End BFT Drop Down -->
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Links</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <h6 class="dropdown-header dropHeader">Simulators</h6>
+                  <a class="dropdown-item" href="https://il2sturmovik.com">IL2 Sturmovik</a>
+                  <a class="dropdown-item" href="https://www.digitalcombatsimulator.com/en/">DCS</a>
+                  <h6 class="dropdown-header dropHeader">Server Stats</h6>
+                  <a class="dropdown-item" href="http://taw.stg2.de/">Tactical Air War</a>
+                  <a class="dropdown-item" href="http://il2stat.aviaskins.com:8008/en/">Wings of Liberty</a>
+                  <a class="dropdown-item" href="http://coconutside.eu:8080/en/">Coconut Expert</a>
+                  <h6 class="dropdown-header dropHeader">Forums</h6>
+                  <a class="dropdown-item" href="https://forum.il2sturmovik.com/">IL2 Sturmovik Forums</a>
+                  <a class="dropdown-item" href="https://forums.eagle.ru/?langid=1">DCS Forums</a>
+                  <h6 class="dropdown-header dropHeader">YouTube Resources</h6>
+                  <a class="dropdown-item" href="https://www.youtube.com/user/RequiemBoS/featured">The Air Combat Tutorial Library</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/channel/UCEOoU9PxkXEmsFdzrbvx37A/featured">Sheriff's Sim Shack</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/user/SpruceGooseNz/featured">Wanganui Wildcat</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/user/nunocinacio/featured">Nuno Coimbra Inácio</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/channel/UCUgWNRKsYnVOtScOUBJuAKA/featured">Vapor</a>
+                </div>
+            </li>
+          </ul></div>
+</nav>
+
+<div class="container">
+    <section class="row">
+        <article class="col" >
+            <img src='/img/join_us.jpg' alt="Responsive image" class="img-fluid">
+        </article>
+    </section>
+
+    <section class="row">
+        <article class="col" style="padding-top: 15px; padding-bottom: 15px">
+            <h3>Squadron Point Blank</h3>
+            <p>
+                Our unit is a multi-national group of aviation enthusiast and gamers.  We are a transparent and democratic community that above all else wants to help sim pilots find others to blow things up with.  We are primarily focused on prop driven World War II era craft, specifically the <strong>IL2 Great Battle Series</strong> developed by 1C Studios.  However, a great number of us fly <strong>Eagle Dynamics DCS</strong>, as well as Falcon BMS and other Military Aviation Simulation titles.  We run an event tool that members and allied squadrons can use to advertise their Events and Missions via the website and Discord notifications.
+            </p>
+            <p>
+                You can read more in depth about how we operate by looking at our charter:
+                <br><a href="http://charter.pointblank.site/">Our Squadrons Charter</a>
+            </p>
+            <h3>Operations and Events</h3>
+            <p>
+                We run various event types, largely decided by the members who choose to lead and host them.  Some events are informal pick up groups of pilots just looking for some quick action.  Other events are formal with a clear chain of command and assigned positions for all pilots.  <strong>Any member is able to run an event of either type.</strong>
+            </p>
+            <p>
+                Officers and leaders in Point Blank do not dictate how a member or allies chooses to run their Operation (Op), you will likely find our officers serving rather than leading in many Ops.  In other words, <strong>the Op leader is the Commanding Officer (CO) of any Operation.</strong> If he wants a strict chain of command, all those participating in the Op should comply.  These kinds of formal Ops are found for immersion and Cooperative mission.  At the same time if the CO wants a laid-back fly out with pilots just "hanging out" in comms.  Participants should comply.
+            </p>
+            <h3>Requirements</h3>
+            <p>
+                A couple expectations for those wishing to join:
+                <ul>
+                    <strong><li>You can taxi, take off and land your chosen plane.</li></strong>
+                    <li>You understand the munitions of your chosen plane, and how to deploy them.  In other words you know how to shoot, not necessarily well.</li>
+                    <li>You use push-to-talk, a hot mic gets people killed.</li>
+                    <li>You can practice some basic communications etiquette. Meaning don't talk when critical information is being communicated (i.e. hostile targets and operational info)</li>
+                    <li>You can follow a flight leader and remain in a loose formation. </li>
+                    <li>You can manage the engine of your chosen plane.  You don't have to understand all the complex engine management for all planes.  Just understand the basics of the simplest planes in the IL2 Great Battles series.</li>
+                </ul>
+            </p>
+            <p>
+                Don't worry too much about the above requirements, we have most of the resources you will need to meet the above requirements on this website (under the "Info" category on the navbar on this webpage.)
+            </p>
+            <p>
+                We also have several Officers and Members who enjoy running classes and teaching useful skills and techniques.
+            </p>
+            <h3>Recruitment Process</h3>
+            <p>
+                Interested in joining us?
+                <ul>
+                    <li><a href="https://discord.gg/NcAxZ5K">Join our discord</a>. Fly with us. Whether you are interested in membership or not you are welcome to fly with us.</li>
+                    <li>If you would like to join us <strong>drop a message in our "recruits" channel on Discord.</strong></li>
+                    <li>Because we are democratic you need to fly with some of our members, so they can vote you into the group.  <strong>Don’t be shy.  Fly whenever you can with whoever you can.  It need not be an event.</strong></li>
+                </ul>
+            </p>
+            <p>
+                We hope to see you in the virtual skies soon!
+            </p>
+        </article>
+        <article class="col col-lg-5" style="padding-top: 15px; padding-bottom: 15px">
+                <iframe src="https://discordapp.com/widget?id=454744215407165461&theme=light" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+        </article>
+    </section>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+</body>
+</html>

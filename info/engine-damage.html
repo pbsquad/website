@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href='img/favicon.png'/>
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <link href='/style/custom.css' rel="stylesheet">
+
+
+    <title>Point Blank</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-bottom: 10px;">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <a class="navbar-brand nav-brand-img" href="/">
+            <img height="50" width="auto"  src="/img/pb_logo.png" alt="">
+        </a>
+        <!-- NavBar Static Content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/join.html">Join</a>
+            </li>
+
+            <!-- BFT Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <h6 class="dropdown-header dropHeader">Applicants</h6>
+                  <a class="dropdown-item" href="/info/basic-flight-prep.html">Basic Flight Prep</a>
+                  <h6 class="dropdown-header dropHeader">Other Topics</h6>
+                  <a class="dropdown-item" href="/info/takeoff-landing.html">Takeoff & Landing</a>
+                  <a class="dropdown-item" href="/info/stall.html">Stalls and Spins</a>
+                  <a class="dropdown-item" href="/info/engine-damage.html">Plane & Engine Damage</a>
+                </div>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reference</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <h6 class="dropdown-header dropHeader">Plane Comparison Tools</h6>
+                  <a class="dropdown-item" href="/info/air_speed">Optimal Air Speed at Alt.</a>
+                  <a class="dropdown-item" href="/info/turn_speed">Turn Speed at Alt.</a>
+                  <a class="dropdown-item" href="/info/turn_time">Turn Time at Alt.</a>
+                  <a class="dropdown-item" href="/info/climb_time">Climb Time at Alt.</a>
+                  <h6 class="dropdown-header dropHeader">Reference Tables</h6>
+                  <a class="dropdown-item" href="/info/climb_table">Climb Table</a>
+                  <a class="dropdown-item" href="/info/fuel_table">Fuel Table</a>
+                  <a class="dropdown-item" href="/info/speeds_table">Speed Table</a>
+                </div>
+            </li> -->
+            <!-- End BFT Drop Down -->
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Links</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <h6 class="dropdown-header dropHeader">Simulators</h6>
+                  <a class="dropdown-item" href="https://il2sturmovik.com">IL2 Sturmovik</a>
+                  <a class="dropdown-item" href="https://www.digitalcombatsimulator.com/en/">DCS</a>
+                  <h6 class="dropdown-header dropHeader">Server Stats</h6>
+                  <a class="dropdown-item" href="http://taw.stg2.de/">Tactical Air War</a>
+                  <a class="dropdown-item" href="http://il2stat.aviaskins.com:8008/en/">Wings of Liberty</a>
+                  <a class="dropdown-item" href="http://coconutside.eu:8080/en/">Coconut Expert</a>
+                  <h6 class="dropdown-header dropHeader">Forums</h6>
+                  <a class="dropdown-item" href="https://forum.il2sturmovik.com/">IL2 Sturmovik Forums</a>
+                  <a class="dropdown-item" href="https://forums.eagle.ru/?langid=1">DCS Forums</a>
+                  <h6 class="dropdown-header dropHeader">YouTube Resources</h6>
+                  <a class="dropdown-item" href="https://www.youtube.com/user/RequiemBoS/featured">The Air Combat Tutorial Library</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/channel/UCEOoU9PxkXEmsFdzrbvx37A/featured">Sheriff's Sim Shack</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/user/SpruceGooseNz/featured">Wanganui Wildcat</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/user/nunocinacio/featured">Nuno Coimbra Inácio</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/channel/UCUgWNRKsYnVOtScOUBJuAKA/featured">Vapor</a>
+                </div>
+            </li>
+          </ul></div>
+</nav>
+
+<div class="container">
+    <br>
+    <section class="row">
+        <article class="col">
+            <h1>Plane and Engine Damage</h1>
+        </article>
+    </section>
+    <hr>
+    <section class="row">
+        <article class="col">
+            <p>
+                In IL2 Sturmovik engine damage is modeled very well.  It is modeled so well that understanding how to manage your engine once damaged is worth your time.  <em> A generic damage assessment would consist of validating your control surfaces and the state of your engine.</em>  This doc is primarily written for IL2 but can be used for other Sims as well.
+            </p>
+        </article>
+    </section>
+    <section class="row">
+        <article class="col">
+            <h2>BF 109 Engine Management for BFT</h2>
+        </article>
+    </section>
+    <hr>
+    <section class="row">
+        <article class="col">
+            <p>
+                For Basic Flight Training we have you run at <em>emergency power settings</em> in the BF 109 F4. <strong>Ensure you have mapped your manual prop pitch control key.</strong> Optionally, also map manual radiator control if you wish to manage that during your emergency procedures.
+            </p>
+            <p>
+                The general BF 109 F4 emergency settings are as follows:</p>
+            <ul class="lgray">
+                <li>Try to maintain at least 220 kph</li>
+                <li>Keep around 1,500 RPM</li>
+                <li>Set your manifold to 0.8 ATA</li>
+                <li>Coarsen your prop pitch to 8:30 (prop pitch "clock" gauge)</li>
+            </ul>
+        </article>
+    </section>
+    <section class="row">
+        <article class="col">
+            <h2>Damage Assessment</h2>
+        </article>
+    </section>
+    <hr>
+    <section class="row">
+        <article class="col pull-left">
+            <img src='/img/airplaneParts.jpg' class="rounded float-right">
+            <h3>Control Surface Assessment</h3>
+            <p>
+                In the event of suspected plane or engine damage it is wise to take a quick assessment of what is indeed damaged and be aware of what the impact may be.  First, you need to understand the different parts of your plane and what they do.
+            </p>
+            <p>
+                A quick overview of control surfaces:
+                <ul class="lgray">
+                    <li><strong>Ailerons - </strong> Controls ability to Roll, can make turning more difficult if damaged.</li>
+                    <li><strong>Elevators - </strong> Controls pitch, can make climbing and diving more difficult if damaged.</li>
+                    <li><strong>Rudder - </strong> Controls yaw, can make turning and crabbing on the horizontal plane more difficult.</li>
+                    <li><strong>Flaps - </strong> Allows you to produce more lift at lower speed, makes landing harder or slow turn fights harder when damaged.</li>
+                </ul>
+            </p>
+            <p>
+                If you couldn't already tell <strong>loss of rudder or flaps is not as serious as loss of elevator or ailerons.</strong> Its ultimately a judgment call on the part of the pilot at the time but you may be able to continue combat if damage to the flaps or rudder occurs.  You almost certainly want to disengage if you suffer damage to aileron or elevator.
+            </p>
+            <p>
+                Most damage assessments can be done by quickly glancing at these fundamental parts of the plane. You just need to glance out over both wings and back at your tail.  Note, sometimes your flaps are on the underside of your wing and you can't see them.  Rudder may also not be visible requiring you to asses it via control input.
+            </p>
+            <p>
+                To test via control input (assuming you are not in combat).  Quickly attempt to roll left/right, pitch up/down, and yaw left/right.  Note any sluggishness in response to input as possible damage.  Note that even if you have lost control of your elevator or aileron that might not mean you have lost the ability to trim your aileron or elevator.  In the event of a loss of elevator or aileron try to use trim.  You also may be able to manage the journey home with a loss of say your ailerons by navigation with solely your rudder and elevators. Note, you ever want to try this... dive with a Yak past it's max dive speed.
+            </p>
+            <p>
+                <strong>If after an assessment you don't feel confident you can maintain control of your craft attempt to ditch or belly land depending on your altitude.</strong>
+            </p>
+        </article>
+    </section>
+    <section class="row">
+        <article class="col">
+            <h3>Engine Assessment</h3>
+            <p>
+                To asses your engine you want to take note of what is going on outside as well as inside your plane.  In short, check if you are venting any gas or smoke and what your control panel gauges can tell you.  Condensation trails (con-trails) occur at high altitudes and <strong> do not</strong> denote engine damage.
+            </p>
+            <p>
+                If you find you are venting (not con-trailing), asses what color is it:
+                <ul class="lgray">
+                    <li><strong>Venting black smoke - </strong> possible oil line or catastrophic engine damage</li>
+                    <li><strong>Venting light greenish smoke - </strong> possibly fuel leak.</li>
+                    <li><strong>Venting white smoke - </strong> possible coolant leak.</li>
+                </ul>
+            </p>
+            <p>
+                Black smoke is very bad, or not.  It's hard to tell, either way you want to plan to disengage and head home.  Green vapor is probably the least threatening.  It just means you are leaking fuel and you can monitor this via your fuel gauge.  You may even still fight with a fuel leak.  <strong>White vapor on the other hand is bad</strong>, it means a coolant leak which tells you engine failure is eminent.  Once you are out of coolant your engine will seize and you don't have a reliable way in most planes to determine when this will occur.
+            </p>
+            <p>
+                Check your gauges, if you see RPM or water temps "wobbling" or the engine is revving that is a bad sign.  This probably means you don't have long until total engine failure.  <strong>If gauges are steady then direct your focus to Manifold Pressure, RPM, Prop Pitch, and temps.</strong>
+            </p>
+        </article>
+    </section>
+    <section class="row">
+        <article class="col">
+           <h2>Emergency Procedures</h2>
+        </article>
+    </section>
+    <hr>
+    <section class="row">
+        <article class="col">
+            <h3>Dead Stick</h3>
+            <p>
+                At this point you have assessed possible damages and have some decisions to make.  If you engine is dead or prop is trashed, you are dead stick.  <strong>If dead stick, close your radiators and raise flaps/gear and go into a shallow dive.</strong>  You have to give up altitude for just enough enough speed to stay in the air. Watch your airspeed combined with your dive rate.  Now is the time when <a href="#" class="href">knowing your planes stall limits</a>  is important.  Try to make your way to the nearest friendly airfield... or friendly territory.  If you are taking fire either ditch or take evasive action leading to an immediate belly landing.
+            </p>
+            <p>
+                The method of (crash) landing is ultimately your judgment call given the specific situation you find yourself in.  However, there is a strong argument to be made about not deploying landing gear when dead stick.  Landing gear creates a lot of drag and with no forward thrust your speed could quickly drop below your stalling point.  You also may be loosing altitude too fast for a proper wheel landing which could cause you to bounce and/or tip over during landing.  Keep you nose up during a belly landing and try to land flat, deploy your flaps when close to the ground.
+            </p>
+            <h3>Damaged Engine Management</h3>
+            <p>
+                If your engine is functional but you are venting smoke or fluid, disengage from combat as soon as safely possible.  Because we are imaginary pilots, some like to hang in until the end and go out in a blaze of glory... every time.  If that is you, more power to you.  If however you want to save that blaze of glory for a particularly opportune moment later on, or more importantly... deny the enemy a kill, read on.
+            </p>
+            <p>
+                Assuming you are just venting fuel, go for gradual altitude if not being pursued.  Keep an eye on your fuel gauge.  You want to gain enough altitude so that if and when you run out of fuel you can glide to safety and possibly land.  For landing dead stick, read above.  Most of the time you should be able to find your way home and land normally, unless of course it is a heavy/multiple fuel leak or you where flying on fumes. Don't be afraid to push your engine as hard as you can.
+            </p>
+            <p>
+                If you are venting coolant or oil (black smoke) many of the same rules apply as for fuel leaks.  Go for altitude, open your radiators.  <strong>Set your fuel mixture to rich if applicable and try to maintain coarse prop pitch, low RPM, low Manifold pressure, and low temps.</strong> You are in triage mode now, one of these may have to give.  With oil and coolant leaks it's only a matter of time until engine failure and you have very little indication when this will occur.  You can attempt to juggle engine setting with radiators and altitude.  Some like to push the engine in a climb and then coast in a dive and give it time to cool.  The choice is yours.  We encourage you to set constant low power engine settings and maintain a steady course.
+            </p>
+            <p>
+                A note about bombers and twin engine planes.  In a bomber such as the HE 111 you are heavy, very heavy.  You will drop, fast. Plan on not making it very far if you are dead stick.  Same rules apply otherwise.  Just remember that you can use your trim also to keep your nose up, plan on a belly landing in the nearest open space.  If you only loose one engine remember to use yaw input to help compensate for the loss of your engine.
+            </p>
+            <p>
+                <strong>In general, you want to maintain 1,000 - 1,500 RPM with a coarse prop pitch and low manifold pressure.  Use your judgment based on the above to try and maintain a speed above your stall point while at the same time avoiding blowing out your engine.</strong>
+            </p>
+        </article>
+    </section>
+    <section class="row">
+        <article class="col">
+            <h1>Research and Further Resources</h1><hr>
+            <h2>Sherif on Engine Damage</h2>
+        </article>
+    </section>
+    <section class="row">
+        <article class="col embed-responsive embed-responsive-16by9">
+                <iframe class ="center-block" width="650" height="405" src="https://www.youtube.com/embed/5kU6pA4vypA?rel=0" allowfullscreen></iframe>
+        </article>
+    </section>
+    <hr>
+    <section class="row">
+        <article class="col">
+            <footer class="lgray"><small><cite>Video credit goes to Sheriff whose videos and knowledge can be a great help to any aspiring Il2 pilot. You can find his youtube channel in the links dropdown.</cite></small></footer>
+        </article>
+    </section>
+    <br>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+</body>
+</html>

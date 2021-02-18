@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href='img/favicon.png'/>
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <link href='/style/custom.css' rel="stylesheet">
+
+
+    <title>Point Blank</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-bottom: 10px;">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <a class="navbar-brand nav-brand-img" href="/">
+            <img height="50" width="auto"  src="/img/pb_logo.png" alt="">
+        </a>
+        <!-- NavBar Static Content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/join.html">Join</a>
+            </li>
+
+            <!-- BFT Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <h6 class="dropdown-header dropHeader">Applicants</h6>
+                  <a class="dropdown-item" href="/info/basic-flight-prep.html">Basic Flight Prep</a>
+                  <h6 class="dropdown-header dropHeader">Other Topics</h6>
+                  <a class="dropdown-item" href="/info/takeoff-landing.html">Takeoff & Landing</a>
+                  <a class="dropdown-item" href="/info/stall.html">Stalls and Spins</a>
+                  <a class="dropdown-item" href="/info/engine-damage.html">Plane & Engine Damage</a>
+                </div>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reference</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <h6 class="dropdown-header dropHeader">Plane Comparison Tools</h6>
+                  <a class="dropdown-item" href="/info/air_speed">Optimal Air Speed at Alt.</a>
+                  <a class="dropdown-item" href="/info/turn_speed">Turn Speed at Alt.</a>
+                  <a class="dropdown-item" href="/info/turn_time">Turn Time at Alt.</a>
+                  <a class="dropdown-item" href="/info/climb_time">Climb Time at Alt.</a>
+                  <h6 class="dropdown-header dropHeader">Reference Tables</h6>
+                  <a class="dropdown-item" href="/info/climb_table">Climb Table</a>
+                  <a class="dropdown-item" href="/info/fuel_table">Fuel Table</a>
+                  <a class="dropdown-item" href="/info/speeds_table">Speed Table</a>
+                </div>
+            </li> -->
+            <!-- End BFT Drop Down -->
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Links</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <h6 class="dropdown-header dropHeader">Simulators</h6>
+                  <a class="dropdown-item" href="https://il2sturmovik.com">IL2 Sturmovik</a>
+                  <a class="dropdown-item" href="https://www.digitalcombatsimulator.com/en/">DCS</a>
+                  <h6 class="dropdown-header dropHeader">Server Stats</h6>
+                  <a class="dropdown-item" href="http://taw.stg2.de/">Tactical Air War</a>
+                  <a class="dropdown-item" href="http://il2stat.aviaskins.com:8008/en/">Wings of Liberty</a>
+                  <a class="dropdown-item" href="http://coconutside.eu:8080/en/">Coconut Expert</a>
+                  <h6 class="dropdown-header dropHeader">Forums</h6>
+                  <a class="dropdown-item" href="https://forum.il2sturmovik.com/">IL2 Sturmovik Forums</a>
+                  <a class="dropdown-item" href="https://forums.eagle.ru/?langid=1">DCS Forums</a>
+                  <h6 class="dropdown-header dropHeader">YouTube Resources</h6>
+                  <a class="dropdown-item" href="https://www.youtube.com/user/RequiemBoS/featured">The Air Combat Tutorial Library</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/channel/UCEOoU9PxkXEmsFdzrbvx37A/featured">Sheriff's Sim Shack</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/user/SpruceGooseNz/featured">Wanganui Wildcat</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/user/nunocinacio/featured">Nuno Coimbra Inácio</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/channel/UCUgWNRKsYnVOtScOUBJuAKA/featured">Vapor</a>
+                </div>
+            </li>
+          </ul></div>
+</nav>
+
+<div class="container">
+    <section class="row">
+        <article class="col embed-responsive embed-responsive-16by9">
+            <iframe class ="center-block" width="650" height="405" src="https://www.youtube.com/embed/vGX9Gh0JnUo?rel=0" frameborder="0" allowfullscreen></iframe>
+        </article>
+    </section>
+    <br>
+    <section class="row">
+        <article class="col">
+            <h1 class="text-center"> Basic Flight Training Preparation</h1>
+        </article>
+    </section>
+    <hr>
+    <section class="row">
+        <article class="col">
+            <p>
+                All applicants, trainees, and other such interested pilots watch the above video - and take notes - in order to prepare yourself for Basic Flight Training.
+            </p>
+            <p>
+                We do Basic Flight Training in the Bf 109 due to it's automation it is one of the most simple aircraft to fly. As such, some things you must do before the formal training class are bind & memorize these additional non-standard key bindings for the Bf 109:
+            </p>
+            <p>
+                <ul class="lgray">
+                    <li><strong>"Adjustable stabilizer axis":</strong> (bind two keys or an axis to this ONE key binding)</li>
+                    <li><strong>"Switch propellers pitch control mode: manual/auto": </strong>(This turns off automatic prop pitch in the 109 - essential for emergency engine    procedures)</li>
+                    <li><strong>"Propellers: high pitch"</strong></li>
+                    <li><strong>"Propellers: low pitch"</strong></li>
+                    <li>Please change the <strong>"Tail wheel lock/unlock"</strong> binding to something not on the <kbd>G</kbd> key to avoid ground accidents. I use <kbd>/</kbd>, for example class.
+                    <li>Please change the <strong>"Engage engines start procedure / Stop engine"</strong> binding to a modifier key plus <kbd>Home</kbd> to avoid accidentally stopping    your engine during normal flight operations. I use <kbd>RWin + Home</kbd>, for example. That's the standard DCS:World key binding for engine starts, so it's easy to    remember.</li>
+                </ul>
+            </p>
+            <p>
+                These are not optional steps, these are to ensure that training goes smoothly and we aren't spending our time instructing on key bindings or dealing with accidents that slow down training. Failure to do this will result in being told to leave training and come back during the next class.
+            <br><br>
+                Good luck with training! I look forward to you all passing and being welcomed into Pb!
+            </p>
+            <p>
+                <footer class="lgray"><small><cite>Video credit goes to Reqiuem and those at the Air Combat Tutorial Library for their amazing video guides like the one above. Check out his youtube channel in the links dropdown.</cite></small></footer>
+            </p>
+        </article>
+    </section>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+</body>
+</html>

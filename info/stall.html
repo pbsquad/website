@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href='img/favicon.png'/>
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <link href='/style/custom.css' rel="stylesheet">
+
+
+    <title>Point Blank</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-bottom: 10px;">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <a class="navbar-brand nav-brand-img" href="/">
+            <img height="50" width="auto"  src="/img/pb_logo.png" alt="">
+        </a>
+        <!-- NavBar Static Content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/join.html">Join</a>
+            </li>
+
+            <!-- BFT Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <h6 class="dropdown-header dropHeader">Applicants</h6>
+                  <a class="dropdown-item" href="/info/basic-flight-prep.html">Basic Flight Prep</a>
+                  <h6 class="dropdown-header dropHeader">Other Topics</h6>
+                  <a class="dropdown-item" href="/info/takeoff-landing.html">Takeoff & Landing</a>
+                  <a class="dropdown-item" href="/info/stall.html">Stalls and Spins</a>
+                  <a class="dropdown-item" href="/info/engine-damage.html">Plane & Engine Damage</a>
+                </div>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reference</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <h6 class="dropdown-header dropHeader">Plane Comparison Tools</h6>
+                  <a class="dropdown-item" href="/info/air_speed">Optimal Air Speed at Alt.</a>
+                  <a class="dropdown-item" href="/info/turn_speed">Turn Speed at Alt.</a>
+                  <a class="dropdown-item" href="/info/turn_time">Turn Time at Alt.</a>
+                  <a class="dropdown-item" href="/info/climb_time">Climb Time at Alt.</a>
+                  <h6 class="dropdown-header dropHeader">Reference Tables</h6>
+                  <a class="dropdown-item" href="/info/climb_table">Climb Table</a>
+                  <a class="dropdown-item" href="/info/fuel_table">Fuel Table</a>
+                  <a class="dropdown-item" href="/info/speeds_table">Speed Table</a>
+                </div>
+            </li> -->
+            <!-- End BFT Drop Down -->
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Links</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <h6 class="dropdown-header dropHeader">Simulators</h6>
+                  <a class="dropdown-item" href="https://il2sturmovik.com">IL2 Sturmovik</a>
+                  <a class="dropdown-item" href="https://www.digitalcombatsimulator.com/en/">DCS</a>
+                  <h6 class="dropdown-header dropHeader">Server Stats</h6>
+                  <a class="dropdown-item" href="http://taw.stg2.de/">Tactical Air War</a>
+                  <a class="dropdown-item" href="http://il2stat.aviaskins.com:8008/en/">Wings of Liberty</a>
+                  <a class="dropdown-item" href="http://coconutside.eu:8080/en/">Coconut Expert</a>
+                  <h6 class="dropdown-header dropHeader">Forums</h6>
+                  <a class="dropdown-item" href="https://forum.il2sturmovik.com/">IL2 Sturmovik Forums</a>
+                  <a class="dropdown-item" href="https://forums.eagle.ru/?langid=1">DCS Forums</a>
+                  <h6 class="dropdown-header dropHeader">YouTube Resources</h6>
+                  <a class="dropdown-item" href="https://www.youtube.com/user/RequiemBoS/featured">The Air Combat Tutorial Library</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/channel/UCEOoU9PxkXEmsFdzrbvx37A/featured">Sheriff's Sim Shack</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/user/SpruceGooseNz/featured">Wanganui Wildcat</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/user/nunocinacio/featured">Nuno Coimbra Inácio</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/channel/UCUgWNRKsYnVOtScOUBJuAKA/featured">Vapor</a>
+                </div>
+            </li>
+          </ul></div>
+</nav>
+
+<div class="container">
+    <section class="row">
+        <article class="col">
+                <h1>Stall</h1>
+        </article>
+    </section>
+    <hr>
+    <section class="row padit">
+        <article class="col pull-left">
+            <img src='/img/angleOfAttack.jpg' class="rounded float-right">
+            <p>
+                In order to talk about spins we have to first talk about stalls. A stall in aviation is caused when the <em>angle of attack</em> increase to a point at which lift decreases.  Which means that there are varying levels of loss of lift in a stall. <strong>The stall point (critical angle of attack, or stall angle of attack) varies from plane to plane.</strong>  In IL2 we see stall angles as low as 9 degrees and as high as 22 degrees above plane.
+            </p>
+            <p>
+                Note in the picture that <strong>angle of attack is not necessarily the horizon.</strong> Your horizontal plane is determined by the direction of the airflow over the wing.
+            </p>
+            <p>
+                Usual signs you are approaching the <em>critical angle of attack</em> are <strong>a drop in air speed, sluggish controls, and buffet (shaking) in controls.</strong>  In a sim you most likely don't have the feed back that you would in real life, because of this you need to pay close attention to the planes response to control input, nose angle, speed, and any visual cues (shaking).  This is part of understanding the limitations of your machine.
+            </p>
+            <p>
+                <a href="https://il2planes.github.io/stall.html"> Use resources such as this one to help know your stall speeds, angles, and general limitations.</a>
+            </p>
+            <p>
+                We will have you fly at altitude in <strong>landing configuration</strong> and intentionally stall to have you experience the signs in game of a stall during landing.  Landing a plane is effectively walking the fine line between stalling and flying, so getting a feel for your plane is essential.
+            </p>
+        </article>
+    </section>
+    <section class="row">
+        <article class="col">
+            <h1>Spin</h1>
+        </article>
+    </section>
+    <hr>
+    <section class="row">
+        <article class="col pull-left">
+            <img src='/img/aviation-spin.jpg' class="float-right">
+            <p>
+            Given the above, we know that the loss of lift in a stall can vary.  In a spin one wing has significantly less lift than the other wing.  This causes the plane to enter the spin, which is a corkscrew downward path with stabilized speed, path, and rotation rate.
+            </p>
+            <h2>Phases of the Spin </h2>
+            <ul class="lgray">
+                <li><strong>Entry:</strong>  Either accidental or intentional, conditions are met in order to cause a stall.</li>
+                <li><strong>Incipient:</strong> At least one wing stalls, a significant difference in the lift of the two wings is developed.</li>
+                <li><strong>Developed:</strong> Rotation Rate, horizontal, and vertical speed are stabilized.</li>
+                <li><strong>Recovery:</strong> Lower the angle of attack of your wings below the critical angle. Reduce speed, apply rudder and nose down.</li>
+            </ul>
+            <p>
+                <strong>The easiest way to enter a spin intentionally is to go into a climb and decrease throttle.  Just as you feel the plane begin to stall apply aggressive rudder (left or right) to enter a spin (left or right). </strong>  Make sure your climb isn't too steep, else you may accidentally perform a hammerhead or stall turn instead.  Worth noting that it is easier to develop your spin if you yaw with your engine torque.  <strong>In other words, yaw left in a BF 109.</strong>
+            </p>
+            <p>
+                Once you feel your plane tip in the direction of your spin you have entered the incipient stage of the spin.  You can exit from this stage if you are quick enough.  If planned properly you can use an incipient spin to quickly loose altitude and change direction.
+            </p>
+        </article>
+    </section>
+    <section class="row">
+        <article class="col">
+            <h2>Recovery from a Spin</h2>
+            <p>
+                If you return your controls to neutral this should allow your spin to enter the <strong>developed stage</strong>.  This stage is what killed many a pilot in the early days of aviation.  This is usually when most panic pulling back on the stick, only exacerbating the spin.  <strong>You instead do what is opposite of your initial instinct.</strong>
+            </p>
+            <p>
+                The correct way to recover from a developed spin is to remember the acronym P.A.R.E:
+                <ul class="lgray"><strong>
+                    <li>Power to Idle</li>
+                    <li>Aileron neutral (Flaps up)</li>
+                    <li>Rudder full opposite of the spin until spin stops</li>
+                    <li>Elevator adjustment, if your plane hasn't nosed down, then nose down toward the ground and then slowly recover with gradual increase in power and pulling nose back to level. </li></strong>
+                </ul>
+            </p>
+            <p>
+                Spin recovery is a little bit of an art, by that I mean it takes experience.  If you over correct you can just throw your plane into a spin in the opposite direction.  If this happens keep calm and carry on... which means repeat the recovery process in the opposite direction.
+            </p>
+        </article>
+    </section>
+    <section class="row">
+        <article class="col">
+            <h1>Further Research and Resources</h1><hr>
+        </article>
+    </section>
+    <section class="row">
+        <article class="col">
+            <h2>Spin Recovery Upright</h2>
+        </article>
+    </section>
+    <section class="row">
+        <article class="col embed-responsive embed-responsive-16by9">
+            <iframe class ="center-block" width="650" height="405" src="https://www.youtube.com/embed/KMnnegKjH5Y?rel=0" frameborder="0" allowfullscreen></iframe>
+        </article>
+    </section>
+    <section class="row">
+        <article class="col">
+            <h2>Inverted Spins</h2>
+        </article>
+    </section>
+    <section class="row">
+        <article class="col embed-responsive embed-responsive-16by9">
+             <iframe class ="center-block" width="650" height="405" src="https://www.youtube.com/embed/hj3tiBtQz2s?rel=0" frameborder="0" allowfullscreen></iframe>
+        </article>
+    </section>
+    <section class="row">
+        <article class="col">
+             <br><br><footer class="lgray"><small><cite>Video credit goes to Reqiuem and those at the Air Combat Tutorial Library for their amazing video guides like the one above. Check out his youtube channel in the links dropdown.</cite></small></footer>
+        </article>
+    </section>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+</body>
+</html>

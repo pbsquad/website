@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href='img/favicon.png'/>
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <link href='/style/custom.css' rel="stylesheet">
+
+
+    <title>Point Blank</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-bottom: 10px;">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <a class="navbar-brand nav-brand-img" href="/">
+            <img height="50" width="auto"  src="/img/pb_logo.png" alt="">
+        </a>
+        <!-- NavBar Static Content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/join.html">Join</a>
+            </li>
+
+            <!-- BFT Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <h6 class="dropdown-header dropHeader">Applicants</h6>
+                  <a class="dropdown-item" href="/info/basic-flight-prep.html">Basic Flight Prep</a>
+                  <h6 class="dropdown-header dropHeader">Other Topics</h6>
+                  <a class="dropdown-item" href="/info/takeoff-landing.html">Takeoff & Landing</a>
+                  <a class="dropdown-item" href="/info/stall.html">Stalls and Spins</a>
+                  <a class="dropdown-item" href="/info/engine-damage.html">Plane & Engine Damage</a>
+                </div>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reference</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <h6 class="dropdown-header dropHeader">Plane Comparison Tools</h6>
+                  <a class="dropdown-item" href="/info/air_speed">Optimal Air Speed at Alt.</a>
+                  <a class="dropdown-item" href="/info/turn_speed">Turn Speed at Alt.</a>
+                  <a class="dropdown-item" href="/info/turn_time">Turn Time at Alt.</a>
+                  <a class="dropdown-item" href="/info/climb_time">Climb Time at Alt.</a>
+                  <h6 class="dropdown-header dropHeader">Reference Tables</h6>
+                  <a class="dropdown-item" href="/info/climb_table">Climb Table</a>
+                  <a class="dropdown-item" href="/info/fuel_table">Fuel Table</a>
+                  <a class="dropdown-item" href="/info/speeds_table">Speed Table</a>
+                </div>
+            </li> -->
+            <!-- End BFT Drop Down -->
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Links</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <h6 class="dropdown-header dropHeader">Simulators</h6>
+                  <a class="dropdown-item" href="https://il2sturmovik.com">IL2 Sturmovik</a>
+                  <a class="dropdown-item" href="https://www.digitalcombatsimulator.com/en/">DCS</a>
+                  <h6 class="dropdown-header dropHeader">Server Stats</h6>
+                  <a class="dropdown-item" href="http://taw.stg2.de/">Tactical Air War</a>
+                  <a class="dropdown-item" href="http://il2stat.aviaskins.com:8008/en/">Wings of Liberty</a>
+                  <a class="dropdown-item" href="http://coconutside.eu:8080/en/">Coconut Expert</a>
+                  <h6 class="dropdown-header dropHeader">Forums</h6>
+                  <a class="dropdown-item" href="https://forum.il2sturmovik.com/">IL2 Sturmovik Forums</a>
+                  <a class="dropdown-item" href="https://forums.eagle.ru/?langid=1">DCS Forums</a>
+                  <h6 class="dropdown-header dropHeader">YouTube Resources</h6>
+                  <a class="dropdown-item" href="https://www.youtube.com/user/RequiemBoS/featured">The Air Combat Tutorial Library</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/channel/UCEOoU9PxkXEmsFdzrbvx37A/featured">Sheriff's Sim Shack</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/user/SpruceGooseNz/featured">Wanganui Wildcat</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/user/nunocinacio/featured">Nuno Coimbra Inácio</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/channel/UCUgWNRKsYnVOtScOUBJuAKA/featured">Vapor</a>
+                </div>
+            </li>
+          </ul></div>
+</nav>
+
+<link href='/style/intro.css' rel="stylesheet">
+    <div class="bgimg-1">
+      <div class="caption">
+            <br><img src='/img/pbs_logo.png' width="400"  alt="Point Blank Squad Logo">
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href='img/favicon.png'/>
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <link href='/style/custom.css' rel="stylesheet">
+
+
+    <title>Point Blank</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-bottom: 10px;">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <a class="navbar-brand nav-brand-img" href="/">
+            <img height="50" width="auto"  src="/img/pb_logo.png" alt="">
+        </a>
+        <!-- NavBar Static Content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/join.html">Join</a>
+            </li>
+
+            <!-- BFT Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <h6 class="dropdown-header dropHeader">Applicants</h6>
+                  <a class="dropdown-item" href="/info/basic-flight-prep.html">Basic Flight Prep</a>
+                  <h6 class="dropdown-header dropHeader">Other Topics</h6>
+                  <a class="dropdown-item" href="/info/takeoff-landing.html">Takeoff & Landing</a>
+                  <a class="dropdown-item" href="/info/stall.html">Stalls and Spins</a>
+                  <a class="dropdown-item" href="/info/engine-damage.html">Plane & Engine Damage</a>
+                </div>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reference</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <h6 class="dropdown-header dropHeader">Plane Comparison Tools</h6>
+                  <a class="dropdown-item" href="/info/air_speed">Optimal Air Speed at Alt.</a>
+                  <a class="dropdown-item" href="/info/turn_speed">Turn Speed at Alt.</a>
+                  <a class="dropdown-item" href="/info/turn_time">Turn Time at Alt.</a>
+                  <a class="dropdown-item" href="/info/climb_time">Climb Time at Alt.</a>
+                  <h6 class="dropdown-header dropHeader">Reference Tables</h6>
+                  <a class="dropdown-item" href="/info/climb_table">Climb Table</a>
+                  <a class="dropdown-item" href="/info/fuel_table">Fuel Table</a>
+                  <a class="dropdown-item" href="/info/speeds_table">Speed Table</a>
+                </div>
+            </li> -->
+            <!-- End BFT Drop Down -->
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Links</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <h6 class="dropdown-header dropHeader">Simulators</h6>
+                  <a class="dropdown-item" href="https://il2sturmovik.com">IL2 Sturmovik</a>
+                  <a class="dropdown-item" href="https://www.digitalcombatsimulator.com/en/">DCS</a>
+                  <h6 class="dropdown-header dropHeader">Server Stats</h6>
+                  <a class="dropdown-item" href="http://taw.stg2.de/">Tactical Air War</a>
+                  <a class="dropdown-item" href="http://il2stat.aviaskins.com:8008/en/">Wings of Liberty</a>
+                  <a class="dropdown-item" href="http://coconutside.eu:8080/en/">Coconut Expert</a>
+                  <h6 class="dropdown-header dropHeader">Forums</h6>
+                  <a class="dropdown-item" href="https://forum.il2sturmovik.com/">IL2 Sturmovik Forums</a>
+                  <a class="dropdown-item" href="https://forums.eagle.ru/?langid=1">DCS Forums</a>
+                  <h6 class="dropdown-header dropHeader">YouTube Resources</h6>
+                  <a class="dropdown-item" href="https://www.youtube.com/user/RequiemBoS/featured">The Air Combat Tutorial Library</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/channel/UCEOoU9PxkXEmsFdzrbvx37A/featured">Sheriff's Sim Shack</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/user/SpruceGooseNz/featured">Wanganui Wildcat</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/user/nunocinacio/featured">Nuno Coimbra Inácio</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/channel/UCUgWNRKsYnVOtScOUBJuAKA/featured">Vapor</a>
+                </div>
+            </li>
+          </ul></div>
+</nav>
+
+<div class="container">
+    <section class="row">
+        <article class="col">
+            <br>
+            <h1>Takeoff and Landing</h1><hr>
+            <h2>Start Up Procedure</h2><br>
+            <p><strong>Understand your bird before you spin her up.</strong>  There are multiple resources for this.  Some of the more important questions to ask:</p>
+            <ul class="lgray">
+                <li>Do you have a locking tail wheel?</li>
+                <li>What is recommended speed to rotate <i>(lift off from runway)</i>?</li>
+                <li>Is this plane single brake or differential brake?</li>
+                <li>What engine management concerns are there <i>(Radiators, RPM, Prop Pitch, Manifold Pressure)</i>?</li>
+                <li>Do you have all keys mapped given the answers to the above?</li>
+            </ul>
+            <p>The <kbd>E</kbd> key is usually bound to the automated start up.  Initiate startup and enjoy the show.</p>
+            <p>For the purposes of this guide we will assume the use of the BF 109 F4.  This plane is used by us for it's overall ease of management and use.  Many of the systems that would have to be individually managed in other aircraft are automated in the 109.</p>
+            <h2>Take-off Configuration</h2><br>
+            <p>Before Take-off in the Bf-109 make sure you have <strong>your canopy closed</strong> and <strong>your tail wheel locked</strong>. You will need to straighten out your tail wheel for it to actually lock in place. Set your <strong>flaps to 20°</strong> by extending them until you see two black lines on the flaps on your left wing. <strong>Trim your aircraft nose down to +1 on the adjustable stabilizer</strong> so that your tail wheel will lift off the ground at the appropriate speed.</p>
+            <h2>Take-off</h2><br>
+            <p>The Bf-109 has a clockwise rotating propeller when viewed from the cockpit. Due to torque, gyroscopic precession and various aerodynamic effects the plane will have a tendency veer left during take-off. To compensate for this you will need to <strong>apply right rudder pressure throughout take-off</strong>. </p>
+            <p>If you are taking off as part of a flight of aircraft make sure to count 6 seconds before following the aircraft in front of you. When you are ready to go, check that the runway is clear and then slowly throttle up to full power. <ins>By throttling up slowly you reduce the amount of torque on your aircraft and thus, the amount of compensation needed to stay straight during take-off.</ins> </p>
+            <p>You can <strong>rotate at 180 <em>km/h</em></strong>. As soon as you have established a steady climb rate, retract your gear and flaps and reduce your throttle to <strong>1.1 <em>ata</em></strong> or whatever your section leader calls it out to be.</p>
+            <h1>Landing Procedure</h1><hr>
+            <h2>Landing Pattern</h2>
+            <p>
+            The landing pattern is a basic concept that you will find spans all aviation.  There are multiple forms but most can be distilled into the following steps:</p>
+            <ul class="lgray">
+                <li>Upwind Leg</li>
+                <li>Crosswind Leg</li>
+                <li>Downwind Leg</li>
+                <li>Base Leg</li>
+                <li>Final</li>
+            </ul>
+            <p>
+            I find it easy to remember by saying "Up to Down" with a "Cross" between up and down.  The naming is meant to be self explanatory with the primary assumption being you are landing into the wind.  You can either fly your upwind keeping the airfield to you left or you can fly directly over it.  <strong>Enter the pattern at and altitude of about 500 to 1000 meters.</strong>  The image below is a good example of a "traffic pattern":
+            </p>
+            <div class="container-fluid">
+                <img src='/img/traffic_pattern.jpg' class="img-fluid">
+            </div>
+            <p>The pattern is an excellent way to bleed off speed and to take time to configure your plane for landing.  It also allows you to asses the current traffic situation of the airfield.  If you see at any point you will not be able to land you can indefinitely hold "in pattern" until the runway is clear. When you turn on your downwind leg <strong>ensure the end of the run way is approximately 45 degrees between your wing and tail.</strong> This will should allow you enough time to align yourself to the runway for final.</p>
+
+            <h2>Landing Configuration</h2>
+            <p>
+            Landing can be a challenging process. You basically want to adhere to the following for the BF 109 F4:</p>
+            <ul class="lgray">
+                <li>Downwind
+                    <ul>
+                        <li>Prop Pitch on Auto, or 11:30 on manual</li>
+                        <li>1500 RPM and .6 ATA</li>
+                        <li>Tail wheel locked</li>
+                        <li>Drop Gear once speed is less than 350 km/hr</li>
+                        <li>Flaps at 20% once speed is less than 250 km/hr</li>
+                        <li>(Optional) Set Horizontal Stabilizers to somewhere between -4° and -5° before landing.</li>
+                    </ul>
+                </li>
+                <li>Base
+                    <ul>
+                        <li>As you complete your base leg ensure you don't drop below an altitude of 150 meters.</li>
+                    </ul>
+                </li>
+                <li>Final
+                    <ul>
+                        <li>Approach speed of 200-220 km/hr</li>
+                        <li>Touchdown at 160 km/hr</li>
+                    </ul>
+                </li>
+            </ul>
+            <h2>Landing</h2>
+            <p>
+                The three important concepts to remember are <strong>round out, aiming point and touchdown point</strong>. The aiming point is where you place your target reticle.  On your final approach your aiming point is end of the runway closest to you. In IL2 Sturmovik there are not markers like you would find on contemporary runways today, however an illustration of todays runways can still help break down the process used by pilots:
+            </p>
+            <img src='/img/finalview.jpg' class="img-fluid"><br>
+                <p>
+            Note above the "fixed distance" marks.  This is your "aiming point" during your final.  Once you cross the threshold or shortly before, you "round out" by pulling your nose up but reducing power in order to enter a controlled decent.  If done properly you should land softly on all three points; both wing wheels and tail wheel (also called a three point attitude).
+            </p>
+            <p>
+            In IL2 Sturmovik the default aiming point for many is the beginning of the run way or possibly a couple meters before the beginning of the runway.  Making your touch down point somewhere approximately around that aiming point.  If you speed is too high you may need to adjust your aiming point, decrease throttle, or increase flaps.  Never fear coming around for another approach.  If you don't feel good about a approach simply throttle up and pull back up into the pattern and try again.
+            </p>
+        </article>
+    </section>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+</body>
+</html>
